@@ -1,2 +1,2 @@
 # party_clock
-A simple clock using JS
+A simple clock using JS and SASS.
