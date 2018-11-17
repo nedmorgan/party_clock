@@ -1,0 +1,35 @@
+$font-stack: 'Bangers', cursive;
+$center-margin: 0 auto;
+$primary-color: #E08949;
+$t-align: center;
+
+body {
+  background-color: $primary-color;
+}
+
+h1, h3, #time {
+  font-family: $font-stack;
+  text-align: $t-align;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+#time {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 42px;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 10px solid black;
+}
