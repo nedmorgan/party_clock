@@ -1,10 +1,19 @@
+function checkTime(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
+
 function displayTime() {
   const now = new Date();
   let hours = now.getHours();
-  const minutes = now.getMinutes();
-  const seconds = now.getSeconds();
+  let minutes = now.getMinutes();
+  let seconds = now.getSeconds();
+  minutes = checkTime(minutes);
+  seconds = checkTime(seconds);
   let part;
-  
+
   if (hours > 12) {
     part = `PM`;
     hours = hours - 12;
